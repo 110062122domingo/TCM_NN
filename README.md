@@ -3,6 +3,7 @@
 ## Results
 The training results are organized in the results folder. Each subfolder within the results directory follows the specified format: 
 **\[(inputlayer)\]_(DeleteMedThreshold)_UseWeight/NoWeight**.
+
 For instance, \[64-32-16\]_100_UseWeight implies that this model has the following layer structure: input-64-32-16-output. Additionally:
 
 * It utilizes medicines that appear more than 100 times in the training data.
