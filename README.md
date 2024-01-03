@@ -13,3 +13,17 @@ Files in Each Result Folder:
 1. Model: Contains the trained neural network model.
 2. train_f1.csv: Stores the F1 score of the training data.
 3. val_f1.csv: Contains the F1 score of the validation data.
+
+## Setup Instruction
+
+Dependent packages are listed on `requirements.txt`
+
+install by pip
+```
+pip install -r requirements.txt
+```
+
+install by conda
+```
+conda install --yes --file requirements.txt
+```
