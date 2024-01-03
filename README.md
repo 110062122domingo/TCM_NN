@@ -11,6 +11,7 @@ pip install -r requirements.txt
 install by conda
 ```
 conda install --yes --file requirements.txt
+```
 
 ## Results
 The training results are organized in the results folder. Each subfolder within the results directory follows the specified format: 
