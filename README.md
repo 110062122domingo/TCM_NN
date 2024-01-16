@@ -1,4 +1,11 @@
-# TCM_NN
+# Traditional Chinese Medicine Training using Neuron Network Model
+
+## About This Repository
+
+This repository serve for demonstrating training a neuron network model for traditional chinese medicine prescription prediction.
+
+Main code of the model can be found in tcm_nn_model.ipynb
+
 ## Setup Instruction
 
 Dependent packages are listed on `requirements.txt`
@@ -12,6 +19,13 @@ install by conda
 ```
 conda install --yes --file requirements.txt
 ```
+
+## Data Source
+
+Training data is put under the folder /simplified_data. The data used to train the model is simplified_data/simplified_data.csv
+## How to Run
+
+Training model can be run by pressing "run all" in tcm_nn_model.ipynb. Code for saving training metrices is included in the code.
 
 ## Results
 The training results are organized in the results folder. Each subfolder within the results directory follows the specified format: 
