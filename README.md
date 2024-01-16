@@ -30,7 +30,7 @@ Training model can be run by pressing "run all" in tcm_nn_model.ipynb. Code for 
 The f1-score of the testing data is around 0.3 ~ 0.6, mainly affected by the balanceness of the data.<br>
 In other words, if the data of a medicine contains the 1s as many as the 0s, it tends to have a higher f1-score.
 
-## Model outpput examples
+## Model output examples
 The project has experimented couples of model configurations and seek to compare the training results.  The output of the models of different configuration are organized in the folder /results. Each subfolder within the results directory follows the specified format: 
 **\[(inputlayer)\]_(DeleteMedThreshold)_UseWeight/NoWeight**.
 
