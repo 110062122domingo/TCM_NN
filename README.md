@@ -31,7 +31,7 @@ The f1-score of the testing data is around 0.3 ~ 0.6, mainly affected by the bal
 In other words, if the data of a medicine contains the 1s as many as the 0s, it tends to have a higher f1-score.
 
 ## Model outpput examples
-The output of our model are organized in the results folder. Each subfolder within the results directory follows the specified format: 
+The project has experimented couples of model configurations and seek to compare the training results.  The output of the models of different configuration are organized in the folder /results. Each subfolder within the results directory follows the specified format: 
 **\[(inputlayer)\]_(DeleteMedThreshold)_UseWeight/NoWeight**.
 
 For instance, \[64-32-16\]_100_UseWeight implies:
