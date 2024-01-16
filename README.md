@@ -27,7 +27,7 @@ Training data is put under the folder /simplified_data. The data used to train t
 Training model can be run by pressing "run all" in tcm_nn_model.ipynb. Code for saving training metrices is included in the code.
 
 ## Model performance details
-The f1-score of the testing data is around 0.3 ~ 0.6, mainly affected by the balance of the data.<br>
+The f1-score of the testing data is around 0.3 ~ 0.6, mainly affected by the balanceness of the data.<br>
 In other words, if the data of a medicine contains the 1s as many as the 0s, it tends to have a higher f1-score.
 
 ## Model outpput examples
